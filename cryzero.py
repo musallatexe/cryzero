@@ -15,7 +15,7 @@ import sys
 
 	
 print (" ")
-print (''' \033[91m[*] Loading , Please Wait . . . \033[0m''')
+print (''' \033[91m [*] Loading , Please Wait . . . \033[0m''')
 print (" ")
 time.sleep(5)
 def load():
@@ -40,7 +40,7 @@ def load():
 
 load()
 print (" ")
-print (''' \033[91m[*] Starting . . . \033[0m''')
+print (''' \033[91m [*] Starting . . . \033[0m''')
 print (" ")
 time.sleep(5)
 sent = 0
@@ -122,7 +122,7 @@ def usage():
                                              
                                                        
                                 \n
-	usage : python cryzerov1.0.py [-u] [-p] [-v]
+	usage : python3 cryzero.py [-u] [-p] [-v]
 	-h : help
 	-u : server ip
 	-p : port default 80
